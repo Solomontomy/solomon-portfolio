@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/solomon-portfolio/static/css/main.6d9fface.css",
+    "main.js": "/solomon-portfolio/static/js/main.f70667bd.js",
+    "static/media/profile1.jpg": "/solomon-portfolio/static/media/profile1.8ee887911ac1b14f5fd2.jpg",
+    "index.html": "/solomon-portfolio/index.html",
+    "main.6d9fface.css.map": "/solomon-portfolio/static/css/main.6d9fface.css.map",
+    "main.f70667bd.js.map": "/solomon-portfolio/static/js/main.f70667bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d9fface.css",
+    "static/js/main.f70667bd.js"
+  ]
+}
