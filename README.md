@@ -3,7 +3,9 @@
 A modern **personal portfolio website** showcasing my skills, projects, and professional experience.  
 Built with **React**, **TailwindCSS**, and **Framer Motion** to ensure speed, responsiveness, and smooth animations.
 
-Live Demo 👉 [https://solomontomy.github.io/solomon-portfolio](https://solomontomy.github.io/solomon-portfolio)
+🔗 Live Demo: https://solomontomy.github.io/solomon-portfolio
+
+🔗 Netlify Demo: https://solomontomy-portfolio.netlify.app
 
 ---
 
@@ -38,3 +40,31 @@ npm install
 
 # Start development server
 npm start
+
+🌍 Deployment
+
+1️⃣ GitHub Pages
+npm run deploy
+
+Live at: https://solomontomy.github.io/solomon-portfolio
+
+2️⃣ Netlify
+
+Push code to GitHub
+
+Connect repo on Netlify
+
+Use settings:
+
+Build command → npm run build
+
+Publish directory → build
+
+Add a _redirects file inside public/ with:
+
+/*    /index.html   200
+
+
+Deploy → Your site will be live at:
+
+https://solomontomy-portfolio.netlify.app
