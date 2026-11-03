@@ -1,70 +1,24 @@
-# 🌟 Solomon Tomy Portfolio
+# Solomon Tomy — Portfolio
 
-A modern **personal portfolio website** showcasing my skills, projects, and professional experience.  
-Built with **React**, **TailwindCSS**, and **Framer Motion** to ensure speed, responsiveness, and smooth animations.
+React portfolio for Java full-stack development, ERP ownership, and marketplace integrations.
 
-🔗 Live Demo: https://solomontomy.github.io/solomon-portfolio
-
-🔗 Netlify Demo: https://solomontomy-portfolio.netlify.app
-
----
-
-## ✨ Features
-- 🎨 **Responsive Design** – Mobile-friendly and adapts to all screen sizes.
-- ⚡ **Smooth Animations** – Powered by Framer Motion for engaging UI transitions.
-- 🖥 **Projects Showcase** – Highlighting key projects with descriptions and links.
-- 📂 **Experience Timeline** – Interactive work experience with achievements.
-- 🛠 **Technical Skills Grid** – Icons and categories for easy readability.
-- 📧 **Contact Section** – Easy access for recruiters and connections.
-
----
-
-## 🛠️ Tech Stack
-- **Frontend**: React, TailwindCSS, Framer Motion  
-- **Icons**: Lucide-react, React-Icons  
-- **Charts & Reports**: Chart.js, JasperReports (integrated in experience)  
-- **Version Control & Deployment**: Git, GitHub Pages  
-
----
-
-## 🚀 Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/Solomontomy/solomon-portfolio.git
-
-# Navigate to project folder
-cd solomon-portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
+## Local development
+```sh
+npm ci
 npm start
+```
 
-🌍 Deployment
+## Production
+```sh
+npm run build
+```
+Deploy the generated `build/` directory to a static host. For Netlify, use `npm run build` and publish `build`. For a subdirectory deployment, set `PUBLIC_URL` to that path before building.
 
-1️⃣ GitHub Pages
-npm run deploy
+## Content
+- `src/App.js`: experience, skills, and expandable commercial case studies.
+- `src/index.css`: responsive styling and keyboard focus states.
+- `public/Solomon_Tomy_CV.pdf`: downloadable CV; replace when experience changes.
 
-Live at: https://solomontomy.github.io/solomon-portfolio
+Project outcomes reflect the CV. Diagrams are simplified workflow explanations, not production architecture diagrams. Commercial source code and customer data are not included. React is used for this portfolio; it is not presented as evidence of commercial React experience.
 
-2️⃣ Netlify
-
-Push code to GitHub
-
-Connect repo on Netlify
-
-Use settings:
-
-Build command → npm run build
-
-Publish directory → build
-
-Add a _redirects file inside public/ with:
-
-/*    /index.html   200
-
-
-Deploy → Your site will be live at:
-
-https://solomontomy-portfolio.netlify.app
+The legacy files under `src/components/` are not imported by the current entry point. The active page is `src/App.js`.
